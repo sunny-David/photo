@@ -1,0 +1,314 @@
+*{margin: 0;padding:0;}
+a{text-decoration: none}
+ol,ul{list-style: none}
+body{
+    font-family: "SimSun";
+    font-size: 12px;
+    text-align: center;
+    background: #2E4C66;
+}
+img{display: block}
+.clear:after{content:"200B";display:block; font-size:0; height:0; clear:both;}
+.clear{*zoom:1;}
+.none{display: none}
+.hand {
+    cursor: pointer;
+}
+.main {
+    position: relative;
+    width: 1180px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.header .top-nav{
+    height: 50px;
+    line-height: 50px;
+    background: #A3235E;
+    z-index: 1100;
+    position: fixed;
+    _position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.logo{
+    position: absolute;
+    left: 52px;
+    top: 0;
+    width: 120px;
+    border: 0px blue solid;
+    color: white;
+}
+.logo .mt10{
+    margin-top: 10px;
+}
+.icon-logo {
+    position: absolute;
+    display:block;
+    width: 107px;
+    height: 42px;
+    line-height: 42px;
+    background: url("../images/small_icon.png") no-repeat  -895px -176px;
+}
+.nav{
+    position: relative;
+    left: 210px;
+}
+.nav li{
+    float: left;
+    width: 80px;
+    position: relative;
+    margin-right: 20px;
+    white-space: nowrap;
+}
+.nav li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+}
+
+.top-nav .nav .nav-children{
+    width:80px;
+    display: none;
+}
+.city-box, .nav-children{
+    left: 0;
+    top: 50px;
+    position: absolute;
+    /*width: 142px;*/
+    background-color: rgba(216,72,0,0.5);
+}
+.top-nav .city {
+    float:left;
+    left: 230px;
+    background: #920E51;
+    width: 120px;
+    border: 0px blue solid;
+    color: white;
+    position: relative;
+}
+.city-box li {
+    float: left;
+    width: 60px;
+    line-height: 34px;
+}
+.city-box li a{
+    color: white;
+}
+.fix-left-bg, .fix-right-bg {
+    position: fixed;
+    width: 33px;
+    height: 100%;
+    z-index: 1000;
+    top: 0;
+    _display: none;
+}
+.fix-left-bg{
+    background: url("../images/fix_left.png");
+    left:0;
+}
+.fix-right-bg {
+    background: url("../images/fix_right.png");
+    right:0;
+}
+.page-style-2 .city-show-2016 {
+    height: 554px;
+    background: #3E5E7A;
+}
+.city-show-2016 {
+    z-index: 101;
+    width: 168px;
+    background: #1C6274;
+    left: 33px;
+    height: 774px;
+}
+.city-show-2016 ul {
+    margin-top: 20px;
+}
+.page-style-2 .city-show-2016 li {
+    line-height: 69px;
+}
+.city-show-2016 li {
+    width: 83px;
+    font-size: 19px;
+    font-family: "Microsoft YaHei";
+    line-height: 66px;
+}
+.city-show-2016 li a {
+    color: #9BCDD9;
+    font-size: 14px;
+    width: 71px;
+    font-size: 14px;
+    display: inline-block;
+}
+body.page-style-2 .main{
+    background: #2E4C66;
+    margin-top:43px;
+}
+
+.photo-wall {
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 1088px;
+    border-top: 0;
+}
+.photo-wall-super {
+    width: 101%;
+    position: relative;
+    margin-top:30px;
+}
+
+.figure{
+    float:left;
+    margin:0 2px;
+}
+.figure a{
+    display: inline-block;
+    position: relative;
+}
+.figure .shadow{
+    height:20px;
+    box-shadow: 0 20px 10px -10px rgba(0, 0, 0, .2) inset;
+    margin-top:-3px ;
+}
+
+/*footer*/
+.bottom-slogan-wrap {
+    margin-top: 68px;
+    margin-bottom: -48px;
+    *margin-bottom: -44px;
+}
+.bottom-slogan {
+    display: block;
+    margin: 0 auto;
+    width: 462px;
+    height: 30px;
+    line-height: 30px;
+    background:url("../images/small_icon.png") -6px -462px;
+}
+footer {
+    margin-top: 118px;
+    text-align: center;
+}
+.big-logo-wrap {
+    margin-top: 60px;
+    margin-bottom: 55px;
+}
+.icon-big-logo {
+    display: block;
+    margin: 0 auto;
+    width: 837px;
+    height: 184px;
+    line-height: 184px;
+    background:url("../images/small_icon.png") -1015px 0;
+}
+.brand-wx-wrap {
+    position: relative;
+}
+.brand-wx-wrap > hr, .hr-line {
+    height: 2px;
+    border: 0;
+    border-bottom: 2px #375772 solid;
+}
+.brand-wrap {
+    width: 1052px;
+    margin-bottom: 65px;
+}
+.brand-wrap-ul {
+    float: left;
+    width: 235px;
+    height: 154px;
+    margin-right: 27px;
+}
+.brand-wrap-ul > li {
+    border-bottom: 1px #305A73 solid;
+    text-align: left;
+    height: 30px;
+    line-height: 30px;
+}
+.brand-englishName {
+    color: #6085A5;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 9px;
+    text-transform: uppercase;
+}
+.brand-wrap-ul > li > a {
+    color: #5F84A4;
+}
+.footer-msgWrap {
+    margin-top: 20px;
+    text-align: left;
+}
+.footer-msgWrap-icon {
+    float: left;
+    width: 130px;
+}
+.footer-msgWrap-icon > span {
+    display: block;
+    margin-right: 12px;
+    float: left;
+}
+.icon-sina-weibo-txt {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background:url("../images/small_icon.png") -222px -141px;
+}
+.icon-weixin-txt {
+    width: 32px;
+    height: 31px;
+    line-height: 31px;
+    background:url("../images/small_icon.png") -288px -141px;
+}
+.icon-qq-txt {
+    width: 20px;
+    height: 30px;
+    line-height: 30px;
+    background:url("../images/small_icon.png") -259px -141px;
+}
+.footer-txt {
+    margin-top: 65px;
+    margin-bottom: 25px;
+}
+.icon-footer-txt {
+    display: block;
+    width: 1165px;
+    height: 47px;
+    line-height: 47px;
+    background:url("../images/small_icon.png") -573px -239px;
+}
+.friendly-link-wrap {
+    background: black;
+    color: #363736;
+    overflow: hidden;
+}
+footer .friendly-link-wrap .no-bg {
+    border: 0;
+    background: none;
+}
+.friendly-link {
+    margin: 33px auto;
+    text-align: left;
+    line-height: 20px;
+}
+.friendly-link > li {
+    display: inline;
+    margin-right: 10px;
+}
+.friendly-link-wrap a {
+    color: #363736;
+}
+.company-info{
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+

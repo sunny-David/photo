@@ -1,57 +1,820 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <title>Pic by sunny-David</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Pic</h1>
-      <h2 class="project-tagline"></h2>
-      <a href="https://github.com/sunny-David/pic" class="btn">View on GitHub</a>
-      <a href="https://github.com/sunny-David/pic/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/sunny-David/pic/tarball/master" class="btn">Download .tar.gz</a>
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/style.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body class="page-style-2 index dark-mode-2016">
+<div class="city-box city-show-2016" id="page_style_2_city_box">
+    <ul class="clear" id="cityList">
+        <li>
+            <a href="#">成都</a>
+        </li>
+        <li>
+            <a href="#">广州</a>
+        </li>
+        <li>
+            <a href="#">上海</a>
+        </li>
+        <li>
+            <a href="#">昆明</a>
+        </li>
+        <li>
+            <a href="#">三亚</a>
+        </li>
+        <li>
+            <a href="#">大理</a>
+        </li>
+        <li>
+            <a href="#">武汉</a>
+        </li>
+        <li>
+            <a href="#">青岛</a>
+        </li>
+        <li>
+            <a href="#">普吉岛</a>
+        </li>
+        <li>
+            <a href="#">巴厘岛</a>
+        </li>
+        <li>
+            <a href="#">马尔代夫</a>
+        </li>
+        <li>
+            <a href="#">帕劳</a>
+        </li>
+        <li>
+            <a href="#">九寨</a>
+        </li>
+        <li>
+            <a href="#">西藏</a>
+        </li>
+    </ul>
+</div>
+<div class="header">
+    <nav>
+        <div class="top-nav">
+            <div class="logo">
+                <div class="mt10"><a href="#"><span class="icon-logo"></span></a></div>
+            </div>
+            <nav>
+                <ul class="nav">
+                    <li><a href="#">首页</a></li>
+                    <li><a href="brand.html">品牌介绍</a></li>
+                    <li><a href="client.html">真实客照</a></li>
+                    <li><a href="outside.html">最美外景</a></li>
+                    <li><a href="#">婚纱造型</a></li>
+                    <li id="photo_shop">
+                        <a href="#">写真馆</a>
+                        <div class="nav-children">
+                            <ul>
+                                <li><a href="#" >国画馆</a></li>
+                                <li><a href="#" >亲子</a></li>
+                                <li><a href="#" >孕妈</a></li>
+                                <li><a href="#" >闺蜜</a></li>
+                                <li><a href="#" >全家福</a></li>
+                                <li><a href="#" >情侣</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="last"><a href="#">最新活动</a></li>
+                </ul>
+            </nav>
+            <div class="fl city">
+                当前城市：<strong>武汉</strong>
+                <div class="city-box none" id="show_city_nav_top">
+                    <ul>
+                        <li><a href="#">广州</a></li>
+                        <li><a href="#">深圳</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+<span class="fix-left-bg"></span>
+<span class="fix-right-bg"></span>
+<div class="main index">
+    <div class="slider-wrapper theme-default top-big-banner">
+
+        <span id="prev_img" class="prev hand"></span>
+        <span id="next_img" class="next hand"></span>
+
+        <div class="top-ad-box nivoSlider" id="slider">
+            <img src="images/top.jpg">
+            <img src="images/banner-2.jpg">
+            <img src="images/banner-3.jpg">
+            <img src="images/banner-4.jpg">
+            <img src="images/banner-5.jpg">
+            <img src="images/banner-6.jpg">
+        </div>
+    </div>
+    <div class="slogan-top">
+        <a class="title" href="#" >
+            <div class="slogan-top-img"></div>
+        </a>
+    </div>
+    <div class="photo-wall photo-3 in-top" id="six_style">
+        <div class="photo-wall-super clear">
+            <div class="figure zoom">
+                <figure>
+                    <a class="no_unl list"  href="#">
+                        <img src="images/style-1.jpg" class="img"  title="宫廷时尚">
+                    </a>
+                    <div class="shadow"></div>
+                </figure>
+            </div>
+
+            <div class="figure zoom" >
+                <figure>
+                    <a class="no_unl list" href="#">
+                        <img class="img" src="images/style-2.jpg" title="复古画意">
+                    </a>
+                    <div class="shadow"></div>
+                </figure>
+            </div>
+
+            <div class="figure zoom">
+                <figure>
+                    <a class="no_unl list"  href="#">
+                        <img class="img" src="images/style-3.jpg" title="韩色青春">
+                    </a>
+                    <div class="shadow"></div>
+                </figure>
+            </div>
+            <div class="figure zoom">
+                <figure>
+                    <a class="no_unl list" href="#">
+                        <img class="img" src="images/style-4.jpg" title="中式古典">
+                    </a>
+                    <div class="shadow"></div>
+                </figure>
+            </div>
+
+            <div class="figure zoom">
+                <figure>
+                    <a class="no_unl list" href="#">
+                        <img class="img" src="images/style-5.jpg" title="电影大片">
+                    </a>
+                    <div class="shadow"></div>
+                </figure>
+            </div>
+
+            <div class="figure zoom">
+                <figure>
+                    <a class="no_unl list" href="#">
+                        <img class="img" src="images/style-6.jpg" title="日系清新">
+                    </a>
+                    <div class="shadow"></div>
+                </figure>
+            </div>
+        </div>
+        <a class="photo-wall-title" id="month_photo_title">
+            <img src="images/photo_title_new.png">
+        </a>
+    </div>
+    <div class="photo-wall photo-4">
+        <!--月度客照-->
+        <section class="smallGuestPhoto-wrap mode4 clear" id="month_photo">
+
+            <div class="super-wrap">
+                <div class="smallGuestPhoto ">
+                    <a href="#">
+                        <dl>
+                            <dd class="modal">
+                                <img src="images/nine-4.jpg">
+                                <div class="modalBox top"><span>欧式奢华</span></div>
+                            </dd>
+                        </dl>
+                        <div class="smallGuestPhoto-shadow"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="super-wrap">
+                <div class="smallGuestPhoto ">
+                    <a  href="#">
+                        <dl>
+                            <dd class="modal">
+                                <img src="images/nine-3.jpg">
+                                <div class="modalBox right"><span>个性时尚</span></div>
+                            </dd>
+                        </dl>
+                        <div class="smallGuestPhoto-shadow"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="super-wrap">
+                <div class="smallGuestPhoto ">
+                    <a  href="#">
+                        <dl>
+                            <dd class="modal">
+                                <img src="images/nine-2.jpg">
+                                <div class="modalBox bottom"><span>韩式简约</span></div>
+                            </dd>
+                        </dl>
+                        <div class="smallGuestPhoto-shadow"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="super-wrap">
+                <div class="smallGuestPhoto ">
+                    <a  href="#">
+                        <dl>
+                            <dd class="modal">
+                                <img src="images/nine-1.jpg">
+                                <div class="modalBox left"><span>中式经典</span></div>
+                            </dd>
+                        </dl>
+                        <div class="smallGuestPhoto-shadow"></div>
+                    </a>
+                </div>
+            </div>
+
+        </section>
+        <img class="photo-title" src="images/photo_title.png">
+
+        <div class="photo-wall-super clear" id="GuestPhoto">
+
+            <div class="figure">
+                <figure>
+                    <figcaption></figcaption>
+                    <a class="no_unl"  href="#">
+                        <div class="title-wrap2">
+                            <p class="title">10月6日客片孙锐 杨金霞</p>
+                            <p style="transform: scale(1);" class="e">点击量：3851</p>
+                        </div>
+                        <img class="lazy" title="10月6日客片孙锐 杨金霞" alt="10月6日客片孙锐 杨金霞" src="images/269_325_20160812045759295.jpg">
+                    </a>
+                    <div class="shadow"></div>
+                </figure>
+            </div>
+
+
+            <div class="figure">
+                <figure>
+                    <figcaption></figcaption>
+                    <a class="no_unl"  href="#">
+                        <div class="title-wrap2">
+                            <p class="title">10月5日客片刘文杰 李磊</p>
+                            <p style="transform: scale(1);" class="e">点击量：2158</p>
+                        </div>
+                        <img class="lazy" title="10月5日客片刘文杰 李磊" alt="10月5日客片刘文杰 李磊" src="images/269_325_20160804053608727.jpg">
+                    </a>
+                    <div class="shadow"></div>
+                </figure>
+            </div>
+
+
+            <div class="figure">
+                <figure>
+                    <figcaption></figcaption>
+                    <a class="no_unl"  href="#">
+                        <div class="title-wrap2">
+                            <p class="title">10月4日客片皮瑒 余丽婷</p>
+                            <p style="transform: scale(1);" class="e">点击量：2919</p>
+                        </div>
+                        <img class="lazy" title="10月4日客片皮瑒 余丽婷" alt="10月4日客片皮瑒 余丽婷" src="images/269_325_20160716055329226.jpg">
+                    </a>
+                    <div class="shadow"></div>
+                </figure>
+            </div>
+
+
+            <div class="figure">
+                <figure>
+                    <figcaption></figcaption>
+                    <a class="no_unl"  href="#">
+                        <div class="title-wrap2">
+                            <p class="title">10月3日客片邓鹏 苏盈</p>
+                            <p style="transform: scale(1);" class="e">点击量：5740</p>
+                        </div>
+                        <img class="lazy" title="10月3日客片邓鹏 苏盈" alt="10月3日客片邓鹏 苏盈" src="images/269_325_20160706044117639.jpg">
+                    </a>
+                    <div class="shadow"></div>
+                </figure>
+            </div>
+            <div class="cb"></div>
+
+            <div class="figure">
+                <figure>
+                    <figcaption></figcaption>
+                    <a class="no_unl"  href="#">
+                        <div class="title-wrap2">
+                            <p class="title">10月2日客片夏延 王静</p>
+                            <p style="transform: scale(1);" class="e">点击量：7772</p>
+                        </div>
+                        <img class="lazy" title="10月2日客片夏延 王静" alt="10月2日客片夏延 王静" src="images/269_325_20160526060223436.jpg">
+                    </a>
+                    <div class="shadow"></div>
+                </figure>
+            </div>
+
+
+            <div class="figure">
+                <figure>
+                    <figcaption></figcaption>
+                    <a class="no_unl"  href="#">
+                        <div class="title-wrap2">
+                            <p class="title">10月1日客片徐智 乔蒙</p>
+                            <p style="transform: scale(1);" class="e">点击量：3783</p>
+                        </div>
+                        <img class="lazy" title="10月1日客片徐智 乔蒙" alt="10月1日客片徐智 乔蒙" src="images/269_325_20160708092110550.jpg">
+                    </a>
+                    <div class="shadow"></div>
+                </figure>
+            </div>
+
+
+            <div class="figure">
+                <figure>
+                    <figcaption></figcaption>
+                    <a class="no_unl"  href="#">
+                        <div class="title-wrap2">
+                            <p class="title">9月30日客片梁晓龙 陈铄蔼</p>
+                            <p style="transform: scale(1);" class="e">点击量：6697</p>
+                        </div>
+                        <img class="lazy" title="9月30日客片梁晓龙 陈铄蔼" alt="9月30日客片梁晓龙 陈铄蔼" src="images/269_325_20160521053230529.jpg">
+                    </a>
+                    <div class="shadow"></div>
+                </figure>
+            </div>
+
+
+            <div class="figure">
+                <figure>
+                    <figcaption></figcaption>
+                    <a class="no_unl"  href="#">
+                        <div class="title-wrap2">
+                            <p class="title">9月29日客片孙先生 杨小姐</p>
+                            <p style="transform: scale(1);" class="e">点击量：1755</p>
+                        </div>
+                        <img class="lazy" title="9月29日客片孙先生 杨小姐" alt="9月29日客片孙先生 杨小姐" src="images/269_325_20160812045552456.jpg">
+                    </a>
+                    <div class="shadow"></div>
+                </figure>
+            </div>
+        </div><!--\super-->
+
+        <div class="cop2"></div>
+    </div>
+    <div class="photo-wall photo-3">
+        <div class="photo-wall-super">
+            <img class="travel-photo-title" src="images/wh_popular_attractions.jpg">
+            <div class="index-loaction-smallImg-wrap  column-2 clear">
+                <dl>
+                    <dt>
+                        <p class="title">磨山客照</p>
+                        <p class="e">GUPHOTO LOVE TIME</p>
+                    </dt>
+                    <dd>
+                        <a href="#">
+                            <img src="images/542_287_20160519045344325.jpg">
+                        </a>
+                    </dd>
+                    <div class="shadow"></div>
+                </dl>
+
+                <dl>
+                    <dt>
+                        <p class="title">东湖客照</p>
+                        <p class="e">GUPHOTO LOVE TIME</p>
+                    </dt>
+                    <dd>
+                        <a href="#">
+                            <img src="images/542_287_20160727045627847.jpg">
+                        </a>
+                    </dd>
+                    <div class="shadow"></div>
+                </dl>
+
+
+            </div>
+
+
+            <img class="travel-photo-title" src="images/travel_photo_title.png">
+            <div class="index-loaction-smallImg-wrap column-2-1 clear">
+                <dl>
+                    <dt>
+                    <p class="title">普吉岛客照</p>
+                    <p class="e">GUPHOTO LOVE TIME</p>
+                    </dt>
+                    <dd>
+                        <a href="#">
+                            <img src="images/542_287_20160820050447766.jpg">
+                        </a>
+                    </dd>
+                </dl>
+
+
+                <dl>
+                    <dt>
+                    <p class="title">帕劳客照</p>
+                    <p class="e">GUPHOTO LOVE TIME</p>
+                    </dt>
+                    <dd><a href="#">
+                        <img src="images/542_287_20160820050427974.jpg">
+                    </a>
+                    </dd>
+                </dl>
+
+
+                <dl>
+                    <dt>
+                    <p class="title">三亚客照</p>
+                    <p class="e">GUPHOTO LOVE TIME</p>
+                    </dt>
+                    <dd>
+                        <a href="#">
+                            <img src="images/542_287_20160820050408817.jpg">
+                        </a>
+                    </dd>
+                </dl>
+
+
+                <dl>
+                    <dt>
+                    <p class="title">大理客照</p>
+                    <p class="e">GUPHOTO LOVE TIME</p>
+                    </dt>
+                    <dd>
+                        <a href="#">
+                            <img src="images/542_287_20160820050349202.jpg">
+                        </a>
+                    </dd>
+                </dl>
+
+
+                <dl>
+                    <dt>
+                    <p class="title">巴厘岛客照</p>
+                    <p class="e">GUPHOTO LOVE TIME</p>
+                    </dt>
+                    <dd>
+                        <a href="#" >
+                            <img src="images/542_287_20160820051520485.jpg">
+                        </a>
+                    </dd>
+                </dl>
+
+
+                <dl class="mr0">
+                    <dt>
+                    <p class="title">九寨客照</p>
+                    <p class="e">GUPHOTO LOVE TIME</p>
+                    </dt>
+                    <dd>
+                        <a href="#">
+                            <img src="images/542_287_20160820044045624.jpg">
+                        </a>
+                    </dd>
+                </dl>
+
+
+                <dl>
+                    <dt>
+                    <p class="title">马尔代夫客照</p>
+                    <p class="e">GUPHOTO LOVE TIME</p>
+                    </dt>
+                    <dd>
+                        <a href="#" >
+                            <img src="images/542_287_20160820051533586.jpg">
+                        </a>
+                    </dd>
+                </dl>
+
+
+                <dl>
+                    <dt>
+                    <p class="title">圣托里尼客照</p>
+                    <p class="e">GUPHOTO LOVE TIME</p>
+                    </dt>
+                    <dd>
+                        <a href="#">
+                            <img src="images/20150420033900504.jpg">
+                        </a>
+                    </dd>
+                </dl>
+
+
+                <dl class="mr0">
+                    <dt>
+                    <p class="title">西藏客照</p>
+                    <p class="e">GUPHOTO LOVE TIME</p>
+                    </dt>
+                    <dd>
+                        <a href="#">
+                            <img src="images/542_287_20160820044013559.jpg">
+                        </a>
+                    </dd>
+                </dl>
+
+
+
+            </div>
+        </div>
+        <!--<img class="bottom-shadow" src="http://resources1.gulove.com/graph/icon/shadow.png">-->
+    </div>
+    <div class="color-wall-wrap">
+        <div class="slider-wrapper theme-default">
+            <div class="nivoSlider mb6 overflow-hidden" id="slider2">
+                <a href="#" >
+                    <img alt="" src="images/1090_340_20160927050756673.jpg" >
+                </a>
+            </div>
+        </div>
+
+        <div class="color-wall-wrap-inner clear">
+            <div class="box red">
+                <div class="box-inner">
+                    <a class="no_unl" href="#">
+                        <div class="wire"></div>
+                        <img class="lazy" title="亚龙湾 开幕盛宴7999限量发售" src="images/360_360_20160930115957843.jpg">
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="box red">
+                <div class="box-inner">
+                    <a class="no_unl" href="#">
+                        <div class="wire"></div>
+                        <img class="lazy" title="国庆网络特卖会 狂送5000元旅拍基金" src="images/360_360_20160930120525368.jpg">
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="box red">
+                <div class="box-inner">
+                    <a class="no_unl" href="#">
+                        <div class="wire"></div>
+                        <img class="lazy" title="有多少颜值可以重来" src="images/360_360_20160901053003240.jpg">
+                    </a>
+                </div>
+            </div>
+
+            <div class="box red box-last">
+                <div class="box-inner">
+                    <a href="#">
+                        <div class="wire"></div>
+                        <img src="images/360_360_20160804023504158.jpg" >
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="photo-wall photo-3 art"><!--写真模块-->
+        <a href="#" >
+            <img class="mt10 mb10" src="images/title_art.jpg" width="80%">
+        </a>
+        <div class="photo-wall-super">
+            <div class="figure">
+                <figure>
+                    <a class="no_unl" href="#">
+                        <div class="title-wrap2">
+                            <p class="title">10月客照第3季 国画馆</p>
+                            <p class="e">GUPHOTO LOVE TIME</p>
+                        </div>
+                        <img src="images/535_357_20160930053654218.jpg" title="10月客照第3季 国画馆">
+                    </a>
+                    <div class="shadow"></div>
+                </figure>
+            </div>
+            <div class="figure">
+                <figure>
+                    <a class="no_unl" href="#">
+                        <div class="title-wrap2">
+                            <p class="title">10月客照第2季 闺蜜照</p>
+                            <p class="e">GUPHOTO LOVE TIME</p>
+                        </div>
+                        <img  src="images/549_367_20160930053604439.jpg" title="10月客照第2季 闺蜜照">
+                    </a>
+                    <div class="shadow"></div>
+                </figure>
+            </div>
+            <div class="figure">
+                <figure>
+                    <figcaption></figcaption>
+                    <a class="no_unl"  href="#">
+                        <div class="title-wrap2">
+                            <p class="title">10月客照第1季 国画馆</p>
+                            <p class="e">GUPHOTO LOVE TIME</p>
+                        </div>
+                        <img src="images/549_367_20160930053421393.jpg" title="10月客照第1季 国画馆">
+                    </a>
+                    <div class="shadow"></div>
+                </figure>
+            </div>
+            <div class="figure">
+                <figure>
+                    <figcaption></figcaption>
+                    <a class="no_unl"  href="#">
+                        <div class="title-wrap2">
+                            <p class="title">9月客照第4季 国画馆</p>
+                            <p class="e">GUPHOTO LOVE TIME</p>
+                        </div>
+                        <img src="images/534_357_20160909043646521.jpg" title="9月客照第4季 国画馆">
+                    </a>
+                    <div class="shadow"></div>
+                </figure>
+            </div>
+            <div class="figure">
+                <figure>
+                    <figcaption></figcaption>
+                    <a class="no_unl"  href="#2">
+                        <div class="title-wrap2">
+                            <p class="title">9月客照第3季 国画馆</p>
+                            <p class="e">GUPHOTO LOVE TIME</p>
+                        </div>
+                        <img src="images/591_395_20160909043632770.jpg" title="9月客照第3季 国画馆">
+                    </a>
+                    <div class="shadow"></div>
+                </figure>
+            </div>
+            <div class="figure">
+                <figure>
+                    <figcaption></figcaption>
+                    <a class="no_unl"  href="#">
+                        <div class="title-wrap2">
+                            <p class="title">9月客照第2季 国画馆</p>
+                            <p class="e">GUPHOTO LOVE TIME</p>
+                        </div>
+                        <img src="images/550_368_20160909043620977.jpg" title="9月客照第2季 国画馆">
+                    </a>
+                    <div class="shadow"></div>
+                </figure>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="activity-news">
+    <dl>
+        <dt class="head">
+            <div class="title-wrap"><span class="activity-news-title"></span></div>
+            <div class="icon-line"></div>
+        </dt>
+        <dd class="infos-wrap  clear">
+
+            <img class="news-info news-info-bgimg" src="images/20140618023743539.jpg">
+            <div class="news-info m ">
+                <dl>
+                    <dt>
+                        <p class="news-info-time">14.Jun.2016</p>
+                        <p class="news-info-title"><a  href="#" title="结婚请柬怎么写？">结婚请柬怎么写？</a></p>
+                    </dt>
+                    <dd class="news-info-introduce"><a  href="#">　　结婚请柬的写法，在买回来的请柬上按上面内容来填写就可以了，但是在某些对上级长辈的请柬的写法上还是有所不同的。　　结婚请柬的格是...</a></dd>
+                </dl>
+            </div>
+            <div class="news-info  ">
+                <dl>
+                    <dt>
+                    <p class="news-info-time">14.Jun.2016</p>
+                    <p class="news-info-title"><a  href="#" title="女儿出嫁送嫁妆有哪些习俗">女儿出嫁送嫁妆有哪些习俗</a></p>
+                    </dt>
+                    <dd class="news-info-introduce"><a  href="#">嫁妆是女子出嫁时，从娘家带到夫家去的首饰、衣被、家具等及其他物品。各地、各民族的风俗习惯不同，其所送的嫁妆也会不同。送嫁妆也是跟一...</a></dd>
+                </dl>
+            </div>
+            <div class="cb"></div>
+            <div class="news-info">
+                <dl>
+                    <dt>
+                    <p class="news-info-time">14.Jun.2016</p>
+                    <p class="news-info-title"><a  href="#" title="新人订婚仪式中需要注意事项">新人订婚仪式中需要注意事项</a></p>
+                    </dt>
+                    <dd class="news-info-introduce"><a  href="#">结婚是人的一生中最重要的大事，在婚礼之前最为隆重的就是订婚了，可是现在80后结婚的新人，对于订婚并不了解，但是订婚作为中国古老文明的...</a></dd>
+                </dl>
+
+            </div>
+
+
+
+            <div class="news-info m ">
+                <dl>
+                    <dt>
+                    <p class="news-info-time">02.Jun.2016</p>
+                    <p class="news-info-title"><a  href="#" title="拍婚纱照如何选择服装的小技巧">拍婚纱照如何选择服装的小技巧</a></p>
+                    </dt>
+                    <dd class="news-info-introduce"><a  href="#">拍婚纱照如何选择服装的小技巧</a></dd>
+                </dl>
+
+            </div>
+
+
+
+            <div class="news-info  ">
+                <dl>
+                    <dt>
+                    <p class="news-info-time">20.May.2016</p>
+                    <p class="news-info-title"><a  href="#" title="拍水下婚纱照POSE推荐">拍水下婚纱照POSE推荐</a></p>
+                    </dt>
+                    <dd class="news-info-introduce"><a  href="#">水下婚纱摄影已经被现在广大新人认可，并成为了现在最流行的摄影方法；那么对于这种摄影方法的技巧大家都够知道多少呢，以下业内相关专家就...</a></dd>
+                </dl>
+
+            </div>
+
+            <div class="cb"></div>
+
+            <div class="news-info  last">
+                <dl>
+                    <dt>
+                    <p class="news-info-time">20.May.2016</p>
+                    <p class="news-info-title"><a  href="#" title="准新娘大婚当天需注意的安全事项">准新娘大婚当天需注意的安全事项</a></p>
+                    </dt>
+                    <dd class="news-info-introduce"><a  href="#">　　都说女人穿婚纱的时候是最好的，婚礼上穿纯白婚纱的你无疑是当天最耀眼的主角，但准新娘在穿上美美婚纱的同时也要注意安全哦，下面小编...</a></dd>
+                </dl>
+
+            </div>
+
+
+
+            <div class="news-info m ">
+                <dl>
+                    <dt>
+                    <p class="news-info-time">09.May.2016</p>
+                    <p class="news-info-title"><a  href="#" title="拍婚纱照时手应该放在哪">拍婚纱照时手应该放在哪</a></p>
+                    </dt>
+                    <dd class="news-info-introduce"><a  href="#">　　一、利用道具　　拍摄婚纱照的时候，手在画面的比例不大，不过若要摆放不当，将会破坏画面的整体效果。因此手是在站姿人像中很不好处理...</a></dd>
+                </dl>
+            </div>
+            <img class="news-info news-info-bgimg" src="images/20140618023757352.jpg">
+            <div class="cb"></div>
+        </dd>
+    </dl>
+</section>
+<div class="bottom-slogan-wrap">
+    <span class="bottom-slogan"></span>
+</div>
+<footer>
+    <div class="main">
+        <div class="icon-line"></div>
+        <div class="big-logo-wrap">
+            <span class="icon-big-logo"></span>
+        </div>
+
+        <section class="brand-wx-wrap">
+            <hr>
+            <div class="brand-wrap clear">
+                <ul class="brand-wrap-ul">
+                    <li><span class="brand-englishName">TMALL</span><a  href="#" class="url-tmall">古摄影天猫店</a></li>
+                    <li><span class="brand-englishName">VIP SHOPPING</span><a  href="" class="url-shopping">积分商城</a></li>
+                    <li><span class="brand-englishName">WEIBO</span><a  href="#" class="url-weiboSina">新浪微博</a></li>
+                    <li><span class="brand-englishName">CONTACT</span><a  href="#" class="url-contact">联系我们</a></li>
+                </ul>
+                <ul class="brand-wrap-ul">
+                    <li><span class="brand-englishName">BRAND</span><a  href="#?t=11_A_PZ_PC" class="url-brand">品牌介绍</a></li>
+                    <li><span class="brand-englishName">GULOVE</span><a  href="" class="url-gulove">古摄影婚纱</a></li>
+                    <li><span class="brand-englishName">GUQUEEN </span><a  href="" class="url-guqueen">苏菲亚礼服馆</a></li>
+                    <li><span class="brand-englishName">GUYUNYUN</span><a  href="" class="url-guyun">古摄影孕韵</a></li>
+                    <li><span class="brand-englishName">HAIDAO</span><a  href="" class="url-haidao">海外旅拍</a></li>
+                </ul>
+                <ul class="brand-wrap-ul">
+                    <li><span class="brand-englishName">SHOWCASE</span><a  href="#?t=11_A_PZ_PC" class="url-showcase">婚纱造型</a></li>
+                    <li><span class="brand-englishName">LOVESHOW</span><a  href="#?t=11_A_PZ_PC" class="url-loveshow">客片欣赏</a></li>
+                    <li><span class="brand-englishName">LOCATION</span><a  href="#?t=11_A_PZ_PC" class="url-location">古摄影外景</a></li>
+                    <li><span class="brand-englishName">Interior</span><a  href="#?t=11_A_PZ_PC" class="url-interior">古摄影内景</a></li>
+                </ul>
+                <ul class="brand-wrap-ul">
+                    <li><span class="brand-englishName">ACTIVITY</span><a  href="" class="url-act">团购活动</a></li>
+                    <li><span class="brand-englishName">NEWS</span><a  href="#?t=11_A_PZ_PC" class="url-activities">新闻中心</a></li>
+                </ul>
+
+            </div>
+
+            <hr>
+        </section>
+
+
+        <section class="footer-msgWrap">
+            <a class="ajax cboxElement" target="blank" href="#">
+                <a class="ajax cboxElement clear" target="blank" href="#">
+                    <div class="footer-msgWrap-icon clear">
+                        <span class="icon-sina-weibo-txt"></span>
+                        <span class="icon-weixin-txt"></span>
+                        <span class="icon-qq-txt"></span>
+                    </div>
+                </a>
+            </a>
+            <div class="footer-txt"><span class="icon-footer-txt"></span></div>
+            <hr class="hr-line">
+        </section>
+
+    </div><!--/main-->
+
+
+
+
+    <section class="friendly-link-wrap" id="friendly_link">
+        <ul class="friendly-link main no-bg">
+            <li>友情链接：&nbsp;<a href="#">古摄影wed114店铺</a>&nbsp;&nbsp; <a href="#">武汉wed114</a>&nbsp;</li>
+        </ul>
+        <span class="company-info">成都古摄影婚纱艺术发展管理有限公司，地址：成都市锦江区商业场街</span>
     </section>
 
-    <section class="main-content">
-      <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
-
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
-
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating pages manually</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can @mention a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
-
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/sunny-David/pic">Pic</a> is maintained by <a href="https://github.com/sunny-David">sunny-David</a>.</span>
-
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
-
-    </section>
-
-  
-  </body>
+</footer>
+</body>
 </html>

@@ -1,0 +1,138 @@
+.position-wrap {
+    font-size: 18px;
+    color: white;
+    font-family: "Microsoft YaHei";
+    margin-top: 80px;
+    text-align: left;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 6px;
+}
+
+.position-wrap-title {
+    float: left;
+}
+.position-wrap-this {
+    float: right;
+    font-size: 12px;
+    font-family: "SimSun";
+}
+.position-wrap-this > a {
+    color: white;
+}
+.position-line {
+    height: 1px;
+    border: 0;
+    border-bottom: 1px #375772 solid;
+    position: relative;
+    opacity: .6;
+}
+.position-line-inner {
+    width: 1180px;
+    margin: 0 auto;
+    position: relative;
+    height: 1px;
+}
+.position-line-color {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    height: 1px;
+    width: 154px;
+    background: #E8757D;
+}
+.article {
+    text-align: left;
+    width: 1180px;
+    margin: 0 auto;
+}
+.article .content {
+    color: #828E9A;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.main-1100 {
+    width: 1100px;
+    margin: 0 auto;
+}
+.position-wrap .title {
+    font-size: 24px;
+    color: #135D5D;
+    float: left;
+    font-family: "Microsoft YaHei";
+}
+.position-wrap .position {
+    float: right;
+    color: #FFF;
+}
+.hr1-d {
+    border: 0;
+    height: 1px;
+    border-bottom: 1px dashed #029EA1;
+}
+.article {
+    text-align: left;
+    width: 1180px;
+    margin: 0 auto;
+}
+.article .content {
+    color: #828E9A;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.tc, #body .tc {
+    text-align: center;
+}
+.mb60 {
+    margin-bottom: 60px;
+}
+
+.mt60 {
+    margin-top: 60px;
+}
+.mt60 img{
+    display: inline-block;
+    width:179px;
+    height:206px;
+}
+.hr1 {
+    clear: both;
+    border: 0;
+    height: 1px;
+    margin: 0;
+    border-top: 1px #029EA1 solid;
+    overflow: hidden;
+    opacity: .6;
+}
+.article .content p {
+    line-height: 200%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* text-indent: 2em; */
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
